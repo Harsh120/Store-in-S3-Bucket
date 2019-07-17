@@ -4,9 +4,9 @@ import mimetypes
 from botocore.client import Config
 
 def s3(): 
-    ACCESS_KEY_ID = 'AKIASMGGL4GTLSNJGCA3'
-    ACCESS_SECRET_KEY = '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'
-    BUCKET_NAME = 'test-bucket-harshit'
+    ACCESS_KEY_ID = '' //Access key ID
+    ACCESS_SECRET_KEY = '' //Access Secret key
+    BUCKET_NAME = '' // Bicket name
 
     s3 = boto3.resource(
         's3',
