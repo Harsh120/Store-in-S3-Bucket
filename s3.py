@@ -4,9 +4,9 @@ import mimetypes
 from botocore.client import Config
 
 def s3(): 
-    ACCESS_KEY_ID = '' //Access key ID
-    ACCESS_SECRET_KEY = '' //Access Secret key
-    BUCKET_NAME = '' // Bicket name
+    ACCESS_KEY_ID = '' #Access key ID
+    ACCESS_SECRET_KEY = '' #Access Secret key
+    BUCKET_NAME = '' #Bucket name
 
     s3 = boto3.resource(
         's3',
@@ -35,7 +35,7 @@ def s3():
                     
         return allFiles      
 
-    dirName = 'D:\Laravel\python'
+    dirName = 'D:\Laravel\python' # Directory path, where all files are stored
         
     # Get the list of all files in directory tree at given path
     listOfFiles = getListOfFiles(dirName)
